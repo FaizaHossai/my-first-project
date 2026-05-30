@@ -12,10 +12,11 @@ body {
 
 /* SECTION TITLES */
 h2 {
-  text-align: center;
   font-weight: bold;
   margin-bottom: 30px;
+  color: #2c2c2c;
 }
+
 
 /* SKILLS BOX */
 #skills .col-md-3 {
@@ -44,6 +45,7 @@ h2 {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 
   transition: 0.3s ease;
+  height: 100%
 }
 
 .card:hover {
@@ -64,4 +66,8 @@ h2 {
 /* CONTACT LINKS */
 #contact p {
   font-size: 16px;
+}
+
+section {
+  padding: 70px 20px;
 }
